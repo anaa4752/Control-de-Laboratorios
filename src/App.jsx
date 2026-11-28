@@ -1,20 +1,17 @@
-import {Routes,Route} from 'react-router-dom'
-import Dashboard from './pages/Dashboard'
-import Login from './pages/Login'
-import Perfil from './pages/Perfil'
-import NotFound from './pages/NotFound'
-import { useState } from 'react'
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Login />} />
+      <Routes>
+      <Route path="/" element={<Navigate to="/login" />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/perfil" element={<Perfil />} />
+      <Route path="/register" element={<Register />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
-  )
+  );
 }
 
-export default App
+export default App;

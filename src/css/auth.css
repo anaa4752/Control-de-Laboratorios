@@ -1,0 +1,69 @@
+.pagina { 
+    min-height: 100vh; 
+    display: grid; 
+    place-items: center; 
+    padding: 20px; }
+
+.tarjeta { 
+    background: #404F68; 
+    color: #F2F2F2; 
+    border-radius: 20px; 
+    padding: 32px 28px; 
+    width: 100%; 
+    max-width: 380px; 
+    box-shadow: 0 16px 36px rgba(64, 79, 104, .4); }
+
+.titulo { 
+    font-size: 1.3rem; 
+    text-align: center; 
+    margin: 0 0 12px; }
+
+.tarjeta label { 
+    display: block; 
+    font-weight: 600; 
+    font-size: .9rem; 
+    margin: 14px 0 4px; }
+
+.tarjeta input { 
+    width: 100%; 
+    padding: 12px; 
+    border: 0; 
+    border-radius: 10px; 
+    font: inherit; 
+    color: #404F68; 
+    background: #F2F2F2; }
+
+.password { 
+    display: flex; 
+    gap: 6px; }
+
+.btn-ver { 
+    border: 0; 
+    border-radius: 10px; 
+    padding: 0 14px; 
+    cursor: pointer; 
+    background: #B9C1D0; 
+    color: #404F68; 
+    font-weight: 600; }
+
+.btn-auth { 
+    width: 100%; 
+    margin-top: 22px; 
+    padding: 12px; 
+    border: 0; 
+    border-radius: 12px; 
+    background: #F2F2F2; 
+    color: #404F68; 
+    font: inherit; 
+    font-weight: 700; 
+    cursor: pointer; }
+
+.btn-auth:disabled { 
+    opacity: .6; 
+    cursor: not-allowed; }
+    
+.tarjeta .mensaje-error { color: #FFD6D6; }
+.tarjeta .mensaje-exito { color: #CDEBDD; text-align: center; }
+.enlace { text-align: center; font-size: .9rem; }
+.enlace a { color: #F2F2F2; font-weight: 700; }
+.aviso { text-align: center; font-size: .85rem; margin: 10px 0 0; }
