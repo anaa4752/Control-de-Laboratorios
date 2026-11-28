@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+body { 
+    margin: 0; 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; 
+    background: #B9C1D0; 
+    color: #404F68; }
+.barra { 
+    background: #404F68; 
+    color: #F2F2F2; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 14px 24px; }
+.barra h1 { 
+    margin: 0; 
+    font-size: 1.2rem; 
+    letter-spacing: .08em; }
+.barra-usuario { 
+    display: flex; 
+    gap: 12px; 
+    align-items: center; 
+    font-size: .9rem; }
+.btn-salir { 
+    background: #F2F2F2; 
+    color: #404F68; 
+    border: 0; 
+    border-radius: 999px; 
+    padding: 8px 16px; 
+    cursor: pointer; 
+    font-weight: 600; }
+.contenedor { 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px; }
+.mensaje-error { 
+    color: #962D2D; 
+    font-weight: 600; }
+.mensaje-exito { 
+    color: #17613F; 
+    font-weight: 600; }
